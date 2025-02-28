@@ -1,3 +1,31 @@
+# JetBrains IDES
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local dev
+.env
+.vscode/
+
+# Build directories
+out/
+build/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
 # Prerequisites
 *.d
 
